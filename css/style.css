@@ -1,0 +1,42 @@
+.traffic {
+    width: 170px;
+    height: 450px;
+    border: 10px solid gray;
+    border-radius: 30px;
+    position: relative;
+    left: 40%;
+    top: 40px;
+}
+#red {
+    width: 130px;
+    height: 130px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+    top: 3px;
+    background: rgb(170, 103, 103);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#yellow {
+    width: 130px;
+    height: 130px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+    top: 157px;
+    background: rgb(152, 152, 95);
+}
+#green {
+    width: 130px;
+    height: 130px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+    background: rgb(96, 156, 96);
+}
